@@ -10,6 +10,8 @@
 		D31758382582C6FB001C6A2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31758372582C6FB001C6A2F /* AppDelegate.swift */; };
 		D317583A2582C6FB001C6A2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D31758392582C6FB001C6A2F /* Assets.xcassets */; };
 		D317583D2582C6FB001C6A2F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D317583B2582C6FB001C6A2F /* MainMenu.xib */; };
+		D31758472582C74B001C6A2F /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31758462582C74B001C6A2F /* AppController.swift */; };
+		D317584A2582C85D001C6A2F /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31758492582C85D001C6A2F /* Renderer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D317583C2582C6FB001C6A2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D317583E2582C6FB001C6A2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D317583F2582C6FB001C6A2F /* Pipeline_XIB.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pipeline_XIB.entitlements; sourceTree = "<group>"; };
+		D31758462582C74B001C6A2F /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		D31758492582C85D001C6A2F /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				D31758372582C6FB001C6A2F /* AppDelegate.swift */,
+				D31758462582C74B001C6A2F /* AppController.swift */,
+				D31758492582C85D001C6A2F /* Renderer.swift */,
 				D31758392582C6FB001C6A2F /* Assets.xcassets */,
 				D317583B2582C6FB001C6A2F /* MainMenu.xib */,
 				D317583E2582C6FB001C6A2F /* Info.plist */,
@@ -130,6 +136,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D31758382582C6FB001C6A2F /* AppDelegate.swift in Sources */,
+				D317584A2582C85D001C6A2F /* Renderer.swift in Sources */,
+				D31758472582C74B001C6A2F /* AppController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
