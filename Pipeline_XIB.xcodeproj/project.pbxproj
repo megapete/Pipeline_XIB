@@ -12,6 +12,10 @@
 		D317583D2582C6FB001C6A2F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D317583B2582C6FB001C6A2F /* MainMenu.xib */; };
 		D31758472582C74B001C6A2F /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31758462582C74B001C6A2F /* AppController.swift */; };
 		D317584A2582C85D001C6A2F /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31758492582C85D001C6A2F /* Renderer.swift */; };
+		D317584D2582D389001C6A2F /* Primitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = D317584C2582D389001C6A2F /* Primitive.swift */; };
+		D31758502582DAE2001C6A2F /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = D317584F2582DAE2001C6A2F /* Shaders.metal */; };
+		D31758542582EFAB001C6A2F /* train.obj in Resources */ = {isa = PBXBuildFile; fileRef = D31758522582EFAB001C6A2F /* train.obj */; };
+		D31758552582EFAB001C6A2F /* train.mtl in Resources */ = {isa = PBXBuildFile; fileRef = D31758532582EFAB001C6A2F /* train.mtl */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		D317583F2582C6FB001C6A2F /* Pipeline_XIB.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pipeline_XIB.entitlements; sourceTree = "<group>"; };
 		D31758462582C74B001C6A2F /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
 		D31758492582C85D001C6A2F /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		D317584C2582D389001C6A2F /* Primitive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Primitive.swift; sourceTree = "<group>"; };
+		D317584F2582DAE2001C6A2F /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		D31758522582EFAB001C6A2F /* train.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = train.obj; path = "../../met-materials/02-3d-models/projects/resources/train.obj"; sourceTree = "<group>"; };
+		D31758532582EFAB001C6A2F /* train.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = train.mtl; path = "../../met-materials/02-3d-models/projects/resources/train.mtl"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 				D31758372582C6FB001C6A2F /* AppDelegate.swift */,
 				D31758462582C74B001C6A2F /* AppController.swift */,
 				D31758492582C85D001C6A2F /* Renderer.swift */,
+				D317584C2582D389001C6A2F /* Primitive.swift */,
+				D317584F2582DAE2001C6A2F /* Shaders.metal */,
+				D31758532582EFAB001C6A2F /* train.mtl */,
+				D31758522582EFAB001C6A2F /* train.obj */,
 				D31758392582C6FB001C6A2F /* Assets.xcassets */,
 				D317583B2582C6FB001C6A2F /* MainMenu.xib */,
 				D317583E2582C6FB001C6A2F /* Info.plist */,
@@ -125,6 +137,8 @@
 			files = (
 				D317583A2582C6FB001C6A2F /* Assets.xcassets in Resources */,
 				D317583D2582C6FB001C6A2F /* MainMenu.xib in Resources */,
+				D31758552582EFAB001C6A2F /* train.mtl in Resources */,
+				D31758542582EFAB001C6A2F /* train.obj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +152,8 @@
 				D31758382582C6FB001C6A2F /* AppDelegate.swift in Sources */,
 				D317584A2582C85D001C6A2F /* Renderer.swift in Sources */,
 				D31758472582C74B001C6A2F /* AppController.swift in Sources */,
+				D317584D2582D389001C6A2F /* Primitive.swift in Sources */,
+				D31758502582DAE2001C6A2F /* Shaders.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
